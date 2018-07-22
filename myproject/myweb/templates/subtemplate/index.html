@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<title>一淘网</title>
+</head>
+<body>
+	<h5>this is test</h5>
+	hello word! <strong>{{boldmessage}}</strong><br/>
+	<a href='http://www.baidu.com'>baidu</a> <br/>
+	<img src="{% static "images/image.jpg" %}" alt="picture of image"> <br/>
+	<video width="1024" height="760" controls="controls">
+  		<source src="{% static "movies/video.mp4" %}" type="video/mp4">
+	</video>
+</body>
+</html>
